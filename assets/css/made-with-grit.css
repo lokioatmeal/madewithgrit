@@ -1,0 +1,443 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3268904, 2016-08-15T18:41:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SabonLTStd-Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/sabon/roman/
+ * 
+ * Webfont: SabonLTStd-Bold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/sabon/bold/
+ * 
+ * Webfont: SabonLTStd-BoldItalic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/sabon/bold-italic/
+ * 
+ * Webfont: SabonLTStd-Italic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/sabon/italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3268904
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1989, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/31e128");*/
+@font-face { /*font-family: 'SabonLTStd-Roman';*/      font-family: 'Sabon'; font-weight: 400; font-style: normal; src: url(/assets/fonts/31E128_0_0.eot); src: url(/assets/fonts/31E128_0_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/31E128_0_0.woff2) format('woff2'), url(/assets/fonts/31E128_0_0.woff) format('woff'), url(/assets/fonts/31E128_0_0.ttf) format('truetype'); }
+@font-face { /*font-family: 'SabonLTStd-Bold';*/       font-family: 'Sabon'; font-weight: 700; font-style: normal; src: url(/assets/fonts/31E128_1_0.eot); src: url(/assets/fonts/31E128_1_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/31E128_1_0.woff2) format('woff2'), url(/assets/fonts/31E128_1_0.woff) format('woff'), url(/assets/fonts/31E128_1_0.ttf) format('truetype'); }
+@font-face { /*font-family: 'SabonLTStd-BoldItalic';*/ font-family: 'Sabon'; font-weight: 700; font-style: italic; src: url(/assets/fonts/31E128_2_0.eot); src: url(/assets/fonts/31E128_2_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/31E128_2_0.woff2) format('woff2'), url(/assets/fonts/31E128_2_0.woff) format('woff'), url(/assets/fonts/31E128_2_0.ttf) format('truetype'); }
+@font-face { /*font-family: 'SabonLTStd-Italic';*/     font-family: 'Sabon'; font-weight: 400; font-style: italic; src: url(/assets/fonts/31E128_3_0.eot); src: url(/assets/fonts/31E128_3_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/31E128_3_0.woff2) format('woff2'), url(/assets/fonts/31E128_3_0.woff) format('woff'), url(/assets/fonts/31E128_3_0.ttf) format('truetype'); }
+@font-face { font-family: 'BrooklynSamuels'; font-weight: 100; font-style: normal; src: url(/assets/fonts/2BF022_0_0.eot); src: url(/assets/fonts/2BF022_0_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/2BF022_0_0.woff) format('woff'), url(/assets/fonts/2BF022_0_0.ttf) format('truetype'); }
+@font-face { font-family: 'BrooklynSamuels'; font-weight: 200; font-style: normal; src: url(/assets/fonts/2BF022_1_0.eot); src: url(/assets/fonts/2BF022_1_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/2BF022_1_0.woff) format('woff'), url(/assets/fonts/2BF022_1_0.ttf) format('truetype'); }
+@font-face { font-family: 'BrooklynSamuels'; font-weight: 500; font-style: normal; src: url(/assets/fonts/2BF022_2_0.eot); src: url(/assets/fonts/2BF022_2_0.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/2BF022_2_0.woff) format('woff'), url(/assets/fonts/2BF022_2_0.ttf) format('truetype'); }
+
+
+
+body { margin: 0; padding: 0; font-family: 'BrooklynSamuels', 'Helvetica Neue', sans-serif; font-weight: 100; font-style: normal; color: #000; overflow: auto; background-color: #fff; }
+
+
+
+.wrapper1080 { margin: 0 auto; padding: 0; max-width: 1080px; }
+.wrapper830 { margin: 0 auto; padding: 0; max-width: 830px; }
+.wrapper-header { position: relative; min-height: 30vh; overflow: hidden; }
+.header-container { position: relative; }
+@media screen and (min-width: 850px) {
+  .header-container { min-height: 50vh; }
+}
+.video-duct-tape { margin: auto; padding: 10px; }
+@media screen and (min-width: 1200px) {
+  .video-duct-tape { max-width: 1190px; }
+}
+.wrapper-striped { margin: 0; padding: 0; width: 100%; background: #000 url(/assets/images/bg-stripes.png) center center repeat; }
+
+h1 { margin: 0; padding: 0; font-weight: 500; font-size: 2em; text-transform: uppercase; color: #000; line-height: 1.1em; }
+@media screen and (min-width: 850px) {
+  h1 { font-size: 3.4em; }
+}
+
+section::before,
+section::after { content: ""; display: table; }
+section::after { clear: both; }
+
+body.page-index #background-stuff video { display: none; }
+@media screen and (min-width: 850px) {
+  body.page-index #background-stuff video { display: block; }
+  body.page-index #background-stuff img { display: none; }
+}
+
+body.page-project-detail main { padding: 0; }
+body.page-project-detail main iframe { display: block; margin: 1em auto 4em auto; }
+body.page-project-detail main img { display: block; width: 100%; }
+body.page-project-detail main .wrapper830 div p { padding: 10px; }
+@media screen and (min-width: 850px) {
+  body.page-project-detail main .wrapper div,
+  body.page-project-detail main .wrapper830 div { float: left; width: 50%; }
+}
+body.page-project-detail main .wrapper::before,
+body.page-project-detail main .wrapper830::before,
+body.page-project-detail main .wrapper::after,
+body.page-project-detail main .wrapper830::after { content: ""; display: table; }
+body.page-project-detail main .wrapper::after,
+body.page-project-detail main .wrapper830::after { clear: both; }
+
+
+
+.all-loading * { opacity: 0; }
+.all-active * { transition: opacity 0.5s ease; }
+video { display: block; }
+.hide { display: none; }
+button { outline: none; }
+
+
+
+/* Draws those short rules with these psuedo utils */
+.short-rule::after { display: block; content: ""; margin: 40px 0; width: 50px; height: 10px; background-color: #000; }
+.short-rule.short-rule-reverse::after { background-color: #fff; }
+
+
+
+/* Redo .menu-toggle with SVG and add an .active state */
+.logo { margin: 0; padding: 12px; float: left; width: 45px; height: 45px; background-color: #000; }
+.logo svg { width: 45px; height: 45px; fill: #fff; }
+.menu-toggle { position: absolute; display: inline-block; right: 4px; margin: 0; padding: 12px 0; width: 45px; height: 45px; z-index: 9999; background: url(/assets/images/burger-black.png) center center no-repeat; }
+@media screen and (min-width: 850px) {
+  .menu-toggle { right: 0; }
+}
+
+
+
+/* Header Island */
+.header-container { overflow: hidden; background-color: #fff; }
+.header-container header { position: relative; margin: 0 auto; padding: 55px 10px; max-width: 1200px; }
+.header-container header::before,
+.header-container header::after { content: ""; display: table; }
+.header-container header::after { clear: both; }
+.header-container img { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; z-index: -110; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.header-container div { margin: 0 auto; padding: 0 10px 50px 10px; max-width: 1200px; }
+.header-container div h2 { font-weight: 100; font-size: 2.1em; text-transform: uppercase; color: #000; }
+.header-container div p { margin: 0; padding: 0; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; font-weight: 400; font-style: italic; font-size: 1.3em; line-height: 1.8em; letter-spacing: 0.06rem; }
+@media screen and (min-width: 1220px) {
+  .header-container div { padding: 50px 10px 100px 10px; }
+}
+.header-container.header-container-reverse { background-color: #000; }
+.header-container.header-container-reverse .logo { background-color: #fff; }
+.header-container.header-container-reverse .logo svg { fill: #000; }
+.header-container.header-container-reverse .menu-toggle { background-image: url(/assets/images/burger.png); }
+.header-container.header-container-reverse div h1 { color: #fff; }
+.header-container.header-container-reverse div h2 { color: #fff; }
+.header-container.header-container-reverse div p { color: #fff; }
+.header-container.header-container-reverse div .short-rule::after { background-color: #fff; }
+.header-container.has-bkg { background-color: transparent; }
+
+
+
+
+
+/*body.page-contact .hero-copy-container .header-intro { font-family: 'BrooklynSamuels', 'Helvetica Neue', sans-serif; font-weight: 200; font-style: normal; }*/
+
+body.page-contact /* SUposed to be first p after h1 */ { /*margin-bottom: 70px;*/ }
+body.page-contact .header-container div::before,
+body.page-contact .header-container div::after { content: ""; display: table; }
+body.page-contact .header-container div::after { clear: both; }
+body.page-contact .header-container div .my-custom-col { padding: 0; }
+@media screen and (min-width: 640px) {
+  body.page-contact .header-container div .my-custom-col { float: left; width: 33%; }
+}
+body.page-contact .header-container h3 { color: #fff; }
+body.page-contact .header-container p { font-family: 'BrooklynSamuels', 'Helvetica Neue', sans-serif; font-weight: 100; font-style: normal; }
+
+
+
+/* Let us get specific */
+body.page-about .header-container div p { margin-bottom: 2rem; }
+body.page-about main { background-color: #fff; }
+body.page-about main iframe { display: block; margin: 4em auto; }
+/*body.page-about main video { width: 100%; height: auto; margin: 4em 0; }*/
+@media screen and (min-width: 850px) {
+  body.page-about .header-container { padding-bottom: 4em; }
+  body.page-about main iframe { margin-top: -4em; padding-top: 10px; }
+}
+/*body.page-about main div { float: none; clear: left; display: block; padding: 50px 0; }
+body.page-about main div h1 { text-align: center; }
+body.page-about main div p { text-align: center; margin: 0 0 2rem 0; padding: 0; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; font-weight: 400; font-style: italic; font-size: 1.3em; line-height: 1.8em; letter-spacing: 0.06rem; }
+@media screen and (min-width: 640px) {
+  body.page-about main div p { margin: 0 15% 2rem 15%; }
+}
+body.page-about main div .short-rule:after { margin-left: auto; margin-right: auto; }*/
+
+
+
+/* Great big, and also huge overlay menu. */
+.menu-container { position: fixed; top: 0; right: 0; bottom: 0; left: 0; height: 100%; background-color: #c00; background-color: rgba(204, 0, 0, 0.9); z-index: 99; overflow: hidden; -webkit-transform: translateY(-102%); transform: translateY(-102%); transition: transform 0.25s ease; }
+.menu-container.active { -webkit-transform: none; transform: none; transition: transform 0.25s ease; }
+.menu-container ul { list-style: none; margin: 120px auto 0 auto; padding: 0; clear: both; position: relative; z-index: 100; }
+.menu-container li { position: relative; margin: 20px auto; text-align: center; }
+.menu-container a { display: block; text-decoration: none; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; font-weight: 400; font-style: italic; font-size: 2.5em; color: #fff; line-height: 1.2em; }
+
+
+ul#instafeed-container { margin: 0; padding: 0 0 1em 0; list-style: none; }
+ul#instafeed-container::before,
+ul#instafeed-container::after { content: ""; display: table; }
+ul#instafeed-container::after { clear: both; }
+ul#instafeed-container li { padding: 1em 1em 0 1em; }
+ul#instafeed-container li p { margin: 0; }
+ul#instafeed-container li p img { display: block; width: 100%; }
+@media screen and (min-width: 640px) {
+  ul#instafeed-container { padding: 1%; }
+  ul#instafeed-container li { float: left; padding: 1%; width: 48%; height: 48%; }
+}
+@media screen and (min-width: 1024px) { ul#instafeed-container li { width: 31.3%; height: 31.3%; } }
+@media screen and (min-width: 1200px) { ul#instafeed-container li { width: 23%; height: 23%; } }
+@media screen and (min-width: 1440px) { ul#instafeed-container li { width: 18%; height: 18%; } }
+
+
+
+/* Block o video stuff */
+/* Need to redo all this background video stuff properly. */
+.bg-vid-pause { /*display: none;*/ position: absolute; top: 5px; left: 5px; }
+@media screen and (min-width: 850px) {
+  /*.bg-vid-pause { display: block; }*/
+}
+.bg-vid {
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  min-width: 102%;
+  min-height: 102%;
+  z-index: -100;
+  -webkit-transform: translate(-51%, -51%);
+  -ms-transform: translate(-51%, -51%);
+  transform: translate(-51%, -51%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+article.project-featured { position: relative; display: block; min-height: 10em; cursor: pointer; overflow: hidden; background-color: #fff; }
+article.project-featured a { display: block; width: 100%; height: 100%; }
+article.project-featured img { display: block; width: 100%; /*opacity: 0.5;*/ }
+article.project-featured header { position: absolute; margin: 0; padding: 1em; text-align: center; text-transform: uppercase; min-width: 100%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+article.project-featured header h1 { margin: 0; padding: 0; line-height: 0.9em; font-size: 2em; font-weight: 500; }
+article.project-featured header h1::after { display: block; content: ""; margin: 0.1em auto 0.3em auto; width: 50%; height: 2px; background-color: #000; }
+article.project-featured header h2 { margin: 0; padding: 0; line-height: 0.9em; font-size: 1.2em; font-weight: 200; }
+article.project-featured header p { position: relative; display: inline-block; margin: 0.5em 0 0 0; padding: 1em; border-radius: 100%; border: 0.5em transparent solid; background-color: #000; }
+article.project-featured header p span { position: absolute; display: block; color: #fff; font-size: 0.7em; line-height: 1em; font-weight: 100; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+article.project-featured.project-featured-reverse { background-color: #000; }
+article.project-featured.project-featured-reverse header h1,
+article.project-featured.project-featured-reverse header h2 { color: #fff; }
+article.project-featured.project-featured-reverse header h1::after { background-color: #fff; }
+article.project-featured.project-featured-reverse header p { background-color: #fff; }
+article.project-featured.project-featured-reverse header p span { color: #000; }
+@media screen and (min-width: 640px) {
+  article.project-featured header h1 { font-size: 2.5em; }
+  article.project-featured header h2 { font-size: 1.5em; }
+}
+@media screen and (min-width: 1024px) {
+  article.project-featured header h1 { font-size: 3em; }
+  article.project-featured header h1::after { display: none; }
+  article.project-featured header h2 { font-size: 2em; font-weight: 100; }
+}
+@media screen and (min-width: 1200px) {
+  article.project-featured header h1 { font-size: 6em; }
+  article.project-featured header h2 { font-size: 3em; }
+}
+
+
+
+section.section-portfolio { padding: 10px; }
+
+/* Made some changes here since none of them currently have anchors linking to project detail pages. Weird */
+article.project-grid-item { position: relative; float: left; cursor: pointer; overflow: hidden; width: 100%; height: 50%; margin-bottom: 10px; padding-bottom: 50%; }
+article.project-grid-item a,
+article.project-grid-item p { position: absolute; margin: 0; padding: 0; width: 100%; height: 100%; background-color: #000; background-color: rgba(0, 0, 0, 0.8); }
+article.project-grid-item img { position: absolute; top: 50%; width: 100%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+article.project-grid-item .project-grid-header-container { position: absolute; top: 0; background-color: #000; background-color: rgba(0, 0, 0, 0.8); width: 100%; height: 100%; text-align: center; z-index: 10; box-shadow: inset 0 0 0 4px #363636; -webkit-transition: box-shadow 0.25s ease; -moz-transition: box-shadow 0.25s ease; -o-transition: box-shadow 0.25s ease; transition: box-shadow 0.25s ease; }
+article.project-grid-item .project-grid-header-container:hover { opacity: 1; /*box-shadow: inset 0 0 0 4px #fff;*/ }
+article.project-grid-item .project-grid-header-container header { position: absolute; margin: 0; padding: 1em; text-align: center; min-width: 100%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+article.project-grid-item .project-grid-header-container header h1 { margin: 0; padding: 0; line-height: 1; font-size: 2em; font-weight: 400; color: #fff; text-transform: none; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; }
+article.project-grid-item .project-grid-header-container header h1:after { display: block; content: ""; margin: 0.5em auto 0.7em auto; width: 15%; height: 2px; background-color: #fff; }
+article.project-grid-item .project-grid-header-container header h2 { margin: 0; padding: 0; text-transform: uppercase; font-size: 1em; line-height: 1; color: #fff; font-weight: 100; }
+@media screen and (min-width: 640px) {
+  section.section-portfolio { padding: 1%; }
+  article.project-grid-item { padding-bottom: 48%; margin: 1% 1%; width: 48%; }
+  article.project-grid-item img { top: 0; -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }
+}
+@media screen and (min-width: 1024px) {
+  section.section-portfolio { padding: 0; }
+  article.project-grid-item { margin: 0; padding-bottom: 33.3%; width: 33.3%; }
+  article.project-grid-item .project-grid-header-container { border: none; box-shadow: none; opacity: 0; -webkit-transition: opacity 0.25s ease; -moz-transition: opacity 0.25s ease; -o-transition: opacity 0.25s ease; transition: opacity 0.25s ease; }
+  article.project-grid-item .project-grid-header-container:hover { box-shadow: none; }
+}
+@media screen and (min-width: 1200px) { article.project-grid-item { width: 25%; padding-bottom: 25%; } }
+@media screen and (min-width: 1440px) { article.project-grid-item { width: 20%; padding-bottom: 20%; } }
+
+
+
+
+
+
+
+
+
+section.section-services { background-color: #333; }
+section.section-services div { margin: 0 auto; padding: 50px 10px; max-width: 1200px; color: #fff; }
+section.section-services div::before,
+section.section-services div::after { content: ""; display: table; }
+section.section-services div::after { clear: both; }
+@media screen and (min-width: 850px) {
+  section.section-services div { padding: 100px 10px; }
+}
+section.section-services h2 { font-size: 2em; }
+@media screen and (min-width: 850px) {
+  section.section-services h2 { font-size: 2.5em; }
+}
+
+
+
+section.section-services h2::after { background-color: #fff; }
+section.section-services aside { float: left; width: 100%; }
+@media screen and (min-width: 850px) {
+  section.section-services aside { width: 24%; padding-right: 1%; }
+}
+section.section-services aside h3 { margin: 0; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; font-weight: 400; font-style: italic; font-size: 1.3em; line-height: 1.1em; letter-spacing: 0.05rem; }
+@media screen and (min-width: 850px) {
+  section.section-services aside h3 { min-height: 2.2em; }
+}
+section.section-services aside ul { margin: 1em 0 2em 0; padding: 0; }
+section.section-services aside ul::before,
+section.section-services aside ul::after { content: ""; display: table; }
+section.section-services aside ul::after { clear: both; }
+section.section-services aside ul li { float: left; margin: 0; padding: 0; list-style-type: none; font-size: 0.9em; letter-spacing: 0.05rem; }
+section.section-services aside ul li::after { content: ",\00a0"; font-size: 1.5em; line-height: 1.1em; }
+section.section-services aside ul li:last-child::after { content: ""; }
+@media screen and (min-width: 850px) {
+  section.section-services aside ul { margin: 1.5em 0; }
+  section.section-services aside ul li { float: none; margin: 1.5em 0 0 0; }
+  section.section-services aside ul li:after { content: ""; }
+}
+
+
+
+
+
+
+.page-about main { margin: 0 auto; width: 90%; }
+section.section-about { padding: 0 0 50px 0; color: #363636; }
+section.section-about img { display: block; margin: 0 auto 50px auto; max-width: 100%; }
+section.section-about aside { margin: 0 0 3.2em 0; line-height: 1.6em; }
+section.section-about aside p span { font-weight: 700; }
+section.section-about aside p span::after { content: "\00a0//\00a0"; font-size: 0.8em; font-weight: 200; line-height: 1; }
+@media screen and (min-width: 850px) {
+  .page-about main { padding: 0 10px; max-width: 1200px; }
+  section.section-about img { width: 90%; }
+  section.section-about aside { float: left; width: 46%; margin-bottom: 1.6em; padding: 0 2%; }
+  section.section-about aside:last-of-type { width: 96%; }
+}
+
+
+
+
+
+/* Good luck */
+/*
+.footer-container only exists in case we decide to change background image
+and use footer background as an overlay to change its color.
+*/
+.footer-container { margin: 0 auto; padding: 0; background: #000 url(/assets/images/bg-footer.jpg) center center no-repeat; background-size: cover; }
+footer { margin: 0 auto; padding: 80px 5%; max-width: 1200px; }
+footer::before,
+footer::after { content: ""; display: table; }
+footer::after { clear: both; }
+footer h1 { margin: 0 0 80px 0; font-weight: 500; font-size: 3.3em; color: #fff; line-height: 1em; text-transform: capitalize; }
+footer .my-custom-col { margin: 0; padding: 0; }
+footer .my-custom-col:first-of-type { margin-bottom: 80px; }
+footer .my-custom-col:last-of-type { clear: both; float: none; display: block; padding-top: 80px; text-align: right; }
+footer .my-custom-col svg { margin: 0; padding: 0; width: 65px; fill: #fff; background: none; }
+footer .my-custom-col h3 { margin: 0 0 1em 0; font-size: 1.2em; line-height: 1.1em; font-weight: 200; color: #fff; }
+footer .my-custom-col p { margin: 0 0 3em 0; padding: 0; font-weight: 100; color: #CCC; line-height: 1.6em; }
+footer .my-custom-col a { color: #fff; text-decoration: none; }
+@media screen and (min-width: 640px) {
+  footer .my-custom-col { float: left; width: 50%; }
+  footer .my-custom-col:first-of-type,
+  footer .my-custom-col:last-of-type { display: block; width: 100%; }
+}
+@media screen and (min-width: 1024px) {
+  footer .my-custom-col { width: 25%; }
+  footer .my-custom-col:first-of-type,
+  footer .my-custom-col:last-of-type { display: block; width: 100%; }
+  footer .my-custom-col h3 { margin-right: 10px; padding-bottom: 1em; border-bottom: 1px solid #bdbdbd; min-height: 2.5em; }
+  footer .my-custom-col:nth-last-child(2) h3 { margin-right: 0; }
+}
+@media screen and (min-width: 1200px) {
+  footer { padding: 180px 0; }
+  /*footer h1 { margin: 0 0 180px 18%; }*/
+  /*footer .my-custom-col { margin: 0 1%; width: 15%; }*/
+  /*footer .my-custom-col:first-of-type { float: left; width: 15%; margin: 0 1%; text-align: center; }*/
+  /*footer .my-custom-col:last-of-type { margin: 0 auto; width: 68%; }*/
+}
+/*@media screen and (min-width: 1440px) {
+  footer .my-custom-col h3 { min-height: auto; }
+}*/
+
+
+
+
+
+
+
+
+/* Stack on small */
+.photo-grid {
+
+  display: none;
+
+/*  position: relative; margin: 0; padding: 0; float: left; overflow: hidden; background-color: #000;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px;
+  padding-bottom: 50%;*/
+}
+/*.photo-grid .photo-grid-title-container {
+  position: absolute; top: 0; color: #fff; background-color: #000; background-color: rgba(0, 0, 0, 0.8);
+  width: 100%; height: 100%;
+  text-align: center; z-index: 10; box-shadow: inset 0 0 0 4px #363636;
+   -webkit-transition: box-shadow 0.25s ease; -moz-transition: box-shadow 0.25s ease; -o-transition: box-shadow 0.25s ease; transition: box-shadow 0.25s ease;
+}
+.photo-grid .photo-grid-title-container:hover { opacity: 1; box-shadow: inset 0 0 0 4px #fff; }
+.photo-grid .photo-grid-title-container div { padding: 10px; position: relative; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.photo-grid .photo-grid-title-container div h4 { margin: 0; padding: 0; font-family: 'Sabon', 'Georgia', 'Times New Roman', serif; font-weight: 400; font-style: normal; font-size: 2em; line-height: 1; }
+.photo-grid .photo-grid-title-container div h4:after { display: block; content: ""; margin: 0.5em auto 0.7em auto; width: 15%; height: 2px; background-color: #fff; }
+.photo-grid .photo-grid-title-container div p { margin: 0; padding: 0; text-transform: uppercase; line-height: 1; }
+.photo-grid img { display: none; }
+@media screen and (min-width: 640px) {
+  section.section-portfolio { padding: 1%; }
+  .photo-grid { padding-bottom: 48%; margin: 1% 1%; width: 48%; background-size: contain; }
+}
+@media screen and (min-width: 1024px) {
+  section.section-portfolio { padding: 0; }
+  .photo-grid { margin: 0; padding-bottom: 33.3%; width: 33.3%; }
+  .photo-grid .photo-grid-title-container { border: none; box-shadow: none; opacity: 0; -webkit-transition: opacity 0.25s ease; -moz-transition: opacity 0.25s ease; -o-transition: opacity 0.25s ease; transition: opacity 0.25s ease; }
+  .photo-grid .photo-grid-title-container:hover { box-shadow: none; }
+}
+@media screen and (min-width: 1200px) { .photo-grid { width: 25%; padding-bottom: 25%; } }
+@media screen and (min-width: 1440px) { .photo-grid { width: 20%; padding-bottom: 20%; } }*/
+
+
+/* Override some default colorbox styles. */
+/* Look into http://photoswipe.com/ instead */
+/*#cboxLoadingGraphic { -webkit-filter: grayscale(1); filter: grayscale(1); }
+#cboxTitle { padding-top: 1em; padding-bottom: 1em; color: #363636; line-height: 1.2em; font-weight: 200; }
+#cboxCurrent { color: #363636; float: right; }*/
+
+
+
